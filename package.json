@@ -1,0 +1,14 @@
+{
+  "name": "nanexample",
+  "version": "0.1.0",
+  "description": "Node.js addon written in C++",
+  "main": "addon.js",
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0"
+  },
+  "scripts": {
+    "test": "node addon.js"
+  },
+  "gypfile": true
+}
